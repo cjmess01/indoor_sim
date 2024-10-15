@@ -8,8 +8,15 @@ I've made a startup_sim.sh script that should build and startup the simulation f
 On a windows computer. Not sure about mac.
 Simply run the command ./startup_sim.sh in wsl and it should startup.
 
-If not, this is the ros2 launch command:
+If not, run the following commands in order. 
+They should work after that
+
+source /opt/ros/humble/setup.bash
+export WEBOTS_HOME=/mnt/c/Program\ Files/Webots
+colcon build
+source install/setup.bash
 ros2 launch caleb_messerly_project_1 caleb_messerly_project_1_launch.py
+
 
 in paty.png, you can see the section I modeled. It is the cube at the bottom.
 I also added some ramps and some stairs to make it more interesting
