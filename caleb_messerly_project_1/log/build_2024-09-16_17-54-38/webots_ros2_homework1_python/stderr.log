@@ -1,0 +1,5 @@
+  File "/home/cjmes/f24_robotics/webots_ros2_homework1_python/install/webots_ros2_homework1_python/lib/python3.10/site-packages/webots_ros2_homework1_python/webots_ros2_homework1_python.py", line 138
+    else
+        ^
+SyntaxError: expected ':'
+
