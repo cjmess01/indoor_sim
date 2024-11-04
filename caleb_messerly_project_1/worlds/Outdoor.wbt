@@ -1,0 +1,1574 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/Road.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadIntersection.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/CrossRoadsTrafficLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SimpleBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SimpleTwoFloorsHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ModernHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ModernSuburbanHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/LargeResidentialTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/HollowBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StopSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/CrashBarrier.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StreetLight.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.22666463278536292 0.2615867506285652 -0.9381873566297221 1.7327238775087397
+  position 8.894799789454297 884.4781885848647 516.1303554875075
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  translation 0 -70 -0.5
+  size 520 600
+  tileSize 100 100
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0.3 0.9 0.3
+    IBLStrength 5
+  }
+}
+ResidentialBuilding {
+  translation 140.586 -240.694 0
+  rotation 0 0 1 1.309
+}
+ResidentialBuilding {
+  translation 144.307 -226.796 0
+  rotation 0 0 1 1.309
+  name "residential building(1)"
+}
+ResidentialBuilding {
+  translation 148.034 -212.893 0
+  rotation 0 0 1 1.309
+  name "residential building(2)"
+}
+LargeResidentialTower {
+  translation 112.04 44.14 0
+  scale 2
+}
+LargeResidentialTower {
+  translation 191.7 -23.34 0
+  rotation 0 0 1 -1.5707953071795862
+  name "residential tower(1)"
+  scale 2
+}
+ModernSuburbanHouse {
+  translation 20.86 -208.43 0
+}
+ModernSuburbanHouse {
+  translation 20.86 26.02 0
+  name "suburban house(2)"
+}
+ModernSuburbanHouse {
+  translation 20.86 -39.78 0
+  name "suburban house(1)"
+}
+SimpleTwoFloorsHouse {
+  translation 18.56 -176.33 0
+  rotation 0 0 1 1.5708
+}
+SimpleTwoFloorsHouse {
+  translation 18.5599 -110.37 0
+  rotation 0 0 1 1.5708
+  name "simple two-storey house(1)"
+}
+SimpleTwoFloorsHouse {
+  translation 208.43 -94.2399 0
+  rotation 0 0 -1 2.35619
+  name "simple two-storey house(5)"
+}
+SimpleTwoFloorsHouse {
+  translation 183.825 -109.182 0
+  rotation 0 0 1 -3.1415853071795863
+  name "simple two-storey house(6)"
+}
+SimpleTwoFloorsHouse {
+  translation 157.155 -109.182 0
+  rotation 0 0 1 -3.1415853071795863
+  name "simple two-storey house(7)"
+}
+SimpleTwoFloorsHouse {
+  translation 136.418 -95.9587 0
+  rotation 0 0 1 2.3562
+  name "simple two-storey house(8)"
+}
+SimpleTwoFloorsHouse {
+  translation 18.5595 96.61 0
+  rotation 0 0 1 1.5708
+  name "simple two-storey house(3)"
+}
+SimpleTwoFloorsHouse {
+  translation 114.109 84.2001 0
+  rotation 0 0 1 1.5708
+  name "simple two-storey house(4)"
+}
+SimpleTwoFloorsHouse {
+  translation 18.5596 60.78 0
+  rotation 0 0 1 1.5708
+  name "simple two-storey house(2)"
+}
+SimpleBuilding {
+  translation -169.29 -150.29 0
+}
+SimpleBuilding {
+  translation -141.42 -144.436 0
+  rotation 0 0 1 2.0944
+  name "building(1)"
+}
+SimpleBuilding {
+  translation -137.529 -115.851 0
+  rotation 0 0 1 -3.1415853071795863
+  name "building(2)"
+}
+SimpleBuilding {
+  translation -137.529 -63.501 0
+  rotation 0 0 1 -3.1415853071795863
+  name "building(3)"
+}
+SimpleBuilding {
+  translation -75.479 -73.8507 0
+  rotation 0 0 1 -3.1415853071795863
+  name "building(6)"
+}
+SimpleBuilding {
+  translation -75.4792 -40.7307 0
+  rotation 0 0 1 -3.1415853071795863
+  name "building(7)"
+}
+SimpleBuilding {
+  translation -75.4792 -9.9507 0
+  rotation 0 0 1 -3.1415853071795863
+  name "building(8)"
+}
+SimpleBuilding {
+  translation -137.529 92.199 0
+  rotation 0 0 1 -3.1415853071795863
+  name "building(4)"
+}
+SimpleBuilding {
+  translation -137.529 127.729 0
+  rotation 0 0 1 -3.1415853071795863
+  name "building(5)"
+}
+Wall {
+  translation -15.6492 -221.58 -0.000512947
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  size 0.3 2 369.5
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 58.0108 -242.12 -0.000736069
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(2)"
+  size 0.3 2 369.5
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 70.0907 -244.92 -0.000771312
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(3)"
+  size 0.3 2 92.5
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.711 -142.79 -0.000916946
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(32)"
+  size 0.3 2 83
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.711 -61.13 -0.000723531
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(33)"
+  size 0.3 2 89
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.711 -48.71 -0.000694113
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(35)"
+  size 0.3 2 78
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.711 -48.71 -0.000694113
+  rotation 0.5773512691895147 0.5773502691890485 0.5773492691885823 -2.0943853071795866
+  name "wall(38)"
+  size 0.3 2 53
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 155.711 -48.71 -0.0001179
+  rotation 0.5773512691895147 0.5773502691890485 0.5773492691885823 -2.0943853071795866
+  name "wall(39)"
+  size 0.3 2 53
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 156.661 14.46 0.000122913
+  rotation 0.5773512691895147 0.5773502691890485 0.5773492691885823 -2.0943853071795866
+  name "wall(40)"
+  size 0.3 2 87
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.571 14.46 -0.000445244
+  rotation 0.5773512691895147 0.5773502691890485 0.5773492691885823 -2.0943853071795866
+  name "wall(41)"
+  size 0.3 2 66
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.711 3.13 -0.000571328
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(37)"
+  size 0.3 2 78
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.711 15.31 -0.00054248
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(36)"
+  size 0.3 2 78
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 145.991 -61.1301 -0.000168544
+  rotation 0.5773512691895147 0.5773502691890485 0.5773492691885823 -2.0943853071795866
+  name "wall(34)"
+  size 0.3 2 165
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.471 -153.52 -0.00107129
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(30)"
+  size 0.3 2 163
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.471 -141.77 -0.00104345
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(31)"
+  size 0.3 2 163
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.391 -281.43 -0.00124455
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(15)"
+  size 0.3 2 128
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 245.541 -293.63 -0.00130217
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(29)"
+  size 0.3 2 383
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 233.391 -280.45 -0.00124223
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(27)"
+  size 0.3 2 32
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 245.271 -292.33 -0.00134557
+  rotation 3.2321499999819125e-06 -0.9999999999944038 8.636279999951669e-07 1.57079
+  name "wall(28)"
+  size 0.3 2 44
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 70.0907 -142.81 -0.000529462
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(4)"
+  size 0.3 2 268
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -27.4492 -219.33 5.32918e-06
+  rotation 0.577349935856137 0.5773509358560258 0.577349935856137 -2.0943853071795866
+  name "wall(1)"
+  size 0.3 2 369.5
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -27.4492 -219.33 5.32918e-06
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(7)"
+  size 0.3 2 79
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -30.3356 -230.099 -3.85922e-05
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(11)"
+  size 0.3 2 79
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -116.558 -206.49 0.000743978
+  rotation 6.41919999986733e-06 -0.9999999999793323 3.598409999925629e-07 1.57079
+  name "wall(22)"
+  size 0.3 2 145
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 14.8295 -242.016 -0.000444629
+  rotation -0.12942304352827713 -0.9831063306437837 -0.12942804352995874 1.58783
+  name "wall(16)"
+  size 0.3 2 79
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 58.6344 -242.396 -0.000770929
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(10)"
+  size 0.3 2 77
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 201.994 -280.14 -0.00205952
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(18)"
+  size 0.3 2 137
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 202.28 -292.419 -0.00213616
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(14)"
+  size 0.3 2 195
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -27.771 150.214 0.00224676
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(9)"
+  size 0.3 2 79
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -113.612 173.204 0.0030209
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(17)"
+  size 0.3 2 160
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -12.4527 158.431 0.00218328
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(13)"
+  size 0.3 2 265
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 247.496 88.7777 -0.000160846
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(24)"
+  size 0.3 2 193
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 234.744 79.6975 -0.000121633
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(25)"
+  size 0.3 2 82
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 146.079 103.457 0.000677884
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(26)"
+  size 0.3 2 79
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 58.3698 127.192 0.00147061
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(8)"
+  size 0.3 2 77
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 61.4499 138.689 0.00151747
+  rotation 0.12942304352827713 0.9831063306437837 0.12942804352995874 -1.5878253071795863
+  name "wall(12)"
+  size 0.3 2 77
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -103.459 -198.72 0.000234177
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(5)"
+  size 0.3 2 369.5
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -114.959 -195.88 0.000268144
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(6)"
+  size 0.3 2 369.5
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -114.959 -195.88 0.000268144
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(19)"
+  size 0.3 2 168
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -117.099 -370.2 -0.00013968
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(20)"
+  size 0.3 2 164
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -106.459 -370.2 -0.000164881
+  rotation -0.577349935856137 -0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(21)"
+  size 0.3 2 161
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+CrossRoadsTrafficLight {
+  translation -20.4845 154.177 0
+  rotation 0 0 1 1.309
+  size 11 11
+}
+CrossRoadsTrafficLight {
+  translation 65.5539 131.148 0.1
+  rotation 0 0 1 1.309
+  name "cross road traffic light(1)"
+  size 11 11
+}
+CrossRoadsTrafficLight {
+  translation 152.839 107.787 0.2
+  rotation 0 0 1 1.309
+  name "cross road traffic light(2)"
+  size 11 11
+}
+CrossRoadsTrafficLight {
+  translation 239.516 86.1361 0.3
+  rotation 0 0 1 1.5708
+  name "cross road traffic light(3)"
+  size 11 11
+}
+CrossRoadsTrafficLight {
+  translation 239.616 9.2961 0.4
+  rotation 0 0 1 1.5708
+  name "cross road traffic light(4)"
+  size 11 11
+}
+CrossRoadsTrafficLight {
+  translation 239.506 -54.2139 0.5
+  rotation 0 0 1 1.5708
+  name "cross road traffic light(5)"
+  size 11 11
+}
+CrossRoadsTrafficLight {
+  translation 239.306 -147.244 0.6
+  rotation 0 0 1 1.5708
+  name "cross road traffic light(6)"
+  size 11 11
+}
+CrossRoadsTrafficLight {
+  translation 239.236 -286.354 0.7
+  rotation 0 0 1 1.5708
+  name "cross road traffic light(7)"
+  size 11 11
+}
+RoadIntersection {
+  translation -107.631 177.824 0
+  rotation 0 0 -1 1.0472
+  name "road intersection(1)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation -110.378 -202.383 0
+  rotation 0 0 -1 1.0472
+  name "road intersection(5)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation -20.4832 154.285 0
+  rotation 0 0 -1 1.0472
+  name "road intersection(2)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation -22.8694 -225.914 0
+  rotation 0 0 -1 1.0472
+  name "road intersection(6)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 62.0608 -248.656 0
+  rotation 0 0 -1 1.0472
+  name "road intersection(14)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 64.1566 -147.948 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(7)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 151.226 9.28355 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(8)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 239.099 9.06418 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(11)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 239.339 -54.271 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(12)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 239.311 -147.505 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(13)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 207.363 -285.845 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(15)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 239.379 -286.247 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(16)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 239.233 86.217 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(10)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 151.092 -54.5335 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(9)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 65.4901 131.613 0
+  rotation 0 0 -1 1.0472
+  name "road intersection(3)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 152.742 108.232 0
+  rotation 0 0 1 -1.047195307179586
+  name "road intersection(4)"
+  roadsWidth 10
+  startRoadsLength [
+    1
+  ]
+  locked FALSE
+}
+Road {
+  translation -267.995 220.523 0
+  rotation 0 0 1 -0.261795307179586
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    160 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -102.879 176.517 0
+  rotation 0 0 1 -0.261795307179586
+  name "road(1)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    80 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -105.593 -203.68 0
+  rotation 0 0 1 -0.261795307179586
+  name "road(7)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    80 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -18.6312 -226.987 0
+  rotation 0 0 -1 0.261795
+  name "road(19)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    80 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 66.3993 -249.767 0
+  rotation 0 0 -1 0.261795
+  name "road(20)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    142 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -259.807 -201.315 0
+  rotation 0 0 1 4.07987e-06
+  name "road(17)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    145 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 68.632 -147.451 0
+  rotation 0 0 1 4.07987e-06
+  name "road(9)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    166 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 156.142 9.28939 0
+  rotation 0 0 1 4.07987e-06
+  name "road(11)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    81 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 156.142 -54.6306 0
+  rotation 0 0 1 4.07987e-06
+  name "road(14)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    81 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 211.142 -286.171 0
+  rotation 0 0 1 4.07987e-06
+  name "road(26)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    24 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -108.999 176.517 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(5)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    375 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -111.839 -205.543 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(27)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    169 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -21.499 152.647 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(6)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    375 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 64.181 127.537 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(8)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    270 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+ModernHouse {
+  translation 17.96 -143.48 0
+  rotation 0 0 1 1.5708
+}
+ModernHouse {
+  translation 17.9599 -74.87 0
+  rotation 0 0 1 1.5708
+  name "modern house(1)"
+}
+ModernHouse {
+  translation 17.9598 -10.75 0
+  rotation 0 0 1 1.5708
+  name "modern house(2)"
+}
+Road {
+  translation 239.411 83.307 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(12)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    70 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 239.411 4.547 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(15)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    55 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 239.571 -59.073 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(16)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    84 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 239.411 -149.093 0
+  rotation 0 0 -1 1.5708
+  name "road(23)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    38 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 239.411 -184.843 0
+  rotation 0 0 -1 1.5708
+  name "road(21)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    38 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 239.411 -220.393 0
+  rotation 0 0 -1 1.5708
+  name "road(24)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    38 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 239.411 -244.443 0
+  rotation 0 0 -1 1.5708
+  name "road(25)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    38 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 239.411 -149.093 0
+  rotation 0 0 -1 1.5708
+  name "road(22)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    27 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 150.991 105.107 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(10)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  bottom TRUE
+  wayPoints [
+    90 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 150.991 4.667 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(13)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  bottom TRUE
+  wayPoints [
+    55 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 64.041 -152.503 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(18)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  bottom TRUE
+  wayPoints [
+    93 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation -15.5689 153.125 0
+  rotation 0 0 1 -0.261795307179586
+  name "road(2)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    80 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+StreetLight {
+  translation -7.89161 145.233 0
+  rotation 0 0 1 1.309
+}
+StreetLight {
+  translation -30.8999 151.398 0
+  rotation 0 0 1 1.309
+  name "street light(6)"
+}
+StreetLight {
+  translation -44.3743 155.008 0
+  rotation 0 0 1 1.309
+  name "street light(7)"
+}
+StreetLight {
+  translation -55.154 157.897 0
+  rotation 0 0 1 1.309
+  name "street light(8)"
+}
+StreetLight {
+  translation -70.9951 162.14 0
+  rotation 0 0 1 1.309
+  name "street light(9)"
+}
+StreetLight {
+  translation -83.5619 165.511 0
+  rotation 0 0 1 1.309
+  name "street light(10)"
+}
+StreetLight {
+  translation -101.326 170.271 0
+  rotation 0 0 1 1.309
+  name "street light(11)"
+}
+StreetLight {
+  translation -118.083 174.76 0
+  rotation 0 0 1 1.309
+  name "street light(12)"
+}
+StreetLight {
+  translation -131.315 178.305 0
+  rotation 0 0 1 1.309
+  name "street light(13)"
+}
+StreetLight {
+  translation -145.167 182.016 0
+  rotation 0 0 1 1.309
+  name "street light(14)"
+}
+StreetLight {
+  translation 2.94609 142.33 0
+  rotation 0 0 1 1.309
+  name "street light(1)"
+}
+StreetLight {
+  translation 16.44 138.716 0
+  rotation 0 0 1 1.309
+  name "street light(2)"
+}
+StreetLight {
+  translation 29.8665 135.116 0
+  rotation 0 0 1 1.309
+  name "street light(3)"
+}
+StreetLight {
+  translation 45.3888 130.956 0
+  rotation 0 0 1 1.309
+  name "street light(4)"
+}
+StreetLight {
+  translation 58.1586 127.535 0
+  rotation 0 0 1 1.309
+  name "street light(5)"
+}
+StreetLight {
+  translation 75.6902 122.836 0
+  rotation 0 0 1 1.309
+  name "street light(15)"
+}
+StreetLight {
+  translation 90.0148 118.998 0
+  rotation 0 0 1 1.309
+  name "street light(16)"
+}
+StreetLight {
+  translation 104.822 115.03 0
+  rotation 0 0 1 1.309
+  name "street light(17)"
+}
+StreetLight {
+  translation 118.605 111.336 0
+  rotation 0 0 1 1.309
+  name "street light(18)"
+}
+StreetLight {
+  translation 133.064 107.461 0
+  rotation 0 0 1 1.309
+  name "street light(19)"
+}
+StreetLight {
+  translation 146.073 93.3845 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(49)"
+}
+StreetLight {
+  translation 146.007 103.997 0
+  rotation 0 0 1 1.309
+  name "street light(20)"
+}
+StreetLight {
+  translation 162.429 99.5963 0
+  rotation 0 0 1 1.309
+  name "street light(21)"
+}
+StreetLight {
+  translation 177.197 95.6391 0
+  rotation 0 0 1 1.309
+  name "street light(22)"
+}
+StreetLight {
+  translation 191.25 91.8733 0
+  rotation 0 0 1 1.309
+  name "street light(23)"
+}
+StreetLight {
+  translation 204.641 88.2861 0
+  rotation 0 0 1 1.309
+  name "street light(24)"
+}
+StreetLight {
+  translation 216.252 85.175 0
+  rotation 0 0 1 1.309
+  name "street light(25)"
+}
+StreetLight {
+  translation 233.649 80.5139 0
+  rotation 0 0 1 1.309
+  name "street light(26)"
+}
+StreetLight {
+  translation 233.649 61.2239 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(27)"
+}
+StreetLight {
+  translation 233.649 45.9939 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(28)"
+}
+StreetLight {
+  translation 233.649 22.8239 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(29)"
+}
+StreetLight {
+  translation 233.649 -5.0161 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(30)"
+}
+StreetLight {
+  translation 233.649 -24.8561 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(31)"
+}
+StreetLight {
+  translation 233.649 -45.1761 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(32)"
+}
+StreetLight {
+  translation 233.649 -74.1261 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(33)"
+}
+StreetLight {
+  translation 233.649 -93.8961 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(34)"
+}
+StreetLight {
+  translation 233.649 -115.256 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(35)"
+}
+StreetLight {
+  translation 233.649 -140.276 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(36)"
+}
+StreetLight {
+  translation 223.139 -141.906 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(43)"
+}
+StreetLight {
+  translation 197.349 -141.906 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(44)"
+}
+StreetLight {
+  translation 169.839 -141.906 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(45)"
+}
+StreetLight {
+  translation 99.359 -141.906 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(47)"
+}
+StreetLight {
+  translation 80.229 -141.906 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(46)"
+}
+StreetLight {
+  translation 130.199 -141.906 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(48)"
+}
+StreetLight {
+  translation 233.649 -165.286 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(37)"
+}
+StreetLight {
+  translation 233.649 -186.396 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(38)"
+}
+StreetLight {
+  translation 233.649 -210.086 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(39)"
+}
+StreetLight {
+  translation 233.649 -238.296 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(40)"
+}
+StreetLight {
+  translation 233.649 -259.456 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(41)"
+}
+StreetLight {
+  translation 233.649 -278.146 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "street light(42)"
+}
+CrashBarrier {
+  translation -254.29 209.74 0
+  rotation 0 0 1 1.5708
+  path [
+    0 0 0
+    15 0 0
+  ]
+}
+CrashBarrier {
+  translation -254.29 -207.22 0
+  rotation 0 0 1 1.5708
+  name "crash barrier(1)"
+  path [
+    0 0 0
+    15 0 0
+  ]
+}
+CrashBarrier {
+  translation -119 -363.55 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "crash barrier(2)"
+  path [
+    0 0 0
+    15 0 0
+  ]
+}
+StopSign {
+  translation -114.79 172.99 0
+  rotation 0 0 1 -1.5707953071795862
+  radius 0.01
+}
+StopSign {
+  translation -114.79 -196.06 0
+  rotation 0 0 1 1.5708
+  name "stop sign(1)"
+  radius 0.01
+}
+StopSign {
+  translation -117.42 -206.81 0
+  rotation 0 0 1 -3.1415853071795863
+  name "stop sign(2)"
+  radius 0.01
+}
+StopSign {
+  translation -106.25 -209.82 0
+  rotation 0 0 -1 1.57079
+  name "stop sign(3)"
+  radius 0.01
+}
+StopSign {
+  translation -103.94 -198.691 0
+  rotation 0 0 -1 0.261793
+  name "stop sign(4)"
+  radius 0.01
+}
+StopSign {
+  translation -27.4763 -219.176 0
+  rotation 0 0 1 1.309
+  name "stop sign(5)"
+  radius 0.01
+}
+StopSign {
+  translation 57.5931 -241.968 0
+  rotation 0 0 1 1.309
+  name "stop sign(6)"
+  radius 0.01
+}
+HollowBuilding {
+  translation 191.31 51.29 0
+}
+Wall {
+  translation -113.919 -195.72 0.000835446
+  rotation 6.41919999986733e-06 -0.9999999999793323 3.598409999925629e-07 1.57079
+  name "wall(23)"
+  size 0.3 2 145
+  appearance Roughcast {
+    colorOverride 0.69 0.65 0.47
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Road {
+  translation 70.0611 130.178 0
+  rotation 0 0 1 -0.261795307179586
+  name "road(3)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    80 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
+Road {
+  translation 157.534 106.744 0
+  rotation 0 0 1 -0.261795307179586
+  name "road(4)"
+  width 10
+  rightBorder FALSE
+  leftBorder FALSE
+  bottom TRUE
+  wayPoints [
+    80 0 0
+    1 0 0
+  ]
+  locked FALSE
+}
